@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+*.aux
+*.out
+*.toc
+/build/
+*.ipynb_checkpoints
+.env
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl

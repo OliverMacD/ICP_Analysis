@@ -1,0 +1,7 @@
+{
+    "name": "robot:",
+    "shape": "rectangle",
+    "size": [1, 1],
+    "starting_position": [1, 1],
+    "starting_orientation": 0
+}
