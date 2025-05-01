@@ -40,3 +40,8 @@ ICPConfig(segmentation_strategy='none', gaussian_filter_pct=0.0, memory_mode='fu
 [3D Config]
 ICPConfig(segmentation_strategy='none', gaussian_filter_pct=0.0, memory_mode='full', rejection={'max_normal_diff': None, 'max_distance': None, 'percentile_clip': None}, neighborhood_mode='fixed', search_radius=0.5, density_factor=1.0, num_segments=4)
 [3D RMSE Error] 0.303808
+
+# Round 2 testing
+
+1. `benchmark.py` builds all the initial configs needed into a single json (504 Total Configs)
+2. `benchmark_runner.py` runs the full file

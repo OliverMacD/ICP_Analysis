@@ -11,3 +11,4 @@ __pycache__/
 *.fls
 *.synctex.gz
 *.bbl
+benchmark_results_*/
