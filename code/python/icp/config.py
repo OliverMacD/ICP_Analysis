@@ -4,7 +4,7 @@ from typing import Literal, Optional
 @dataclass
 class ICPConfig:
     # 1. Map segmentation strategy
-    segmentation_strategy: Literal["none", "even_points", "even_range", "uneven_points"] = "none"
+    segmentation_strategy: Literal["none", "even_points", "even_range", "uneven_points"] = "even_points"
 
     # 2. Gaussian filtering (percentage of points to drop)
     gaussian_filter_pct: float = 0.0  # e.g., 5.0 = 5% randomly removed
